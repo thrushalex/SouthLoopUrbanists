@@ -111,7 +111,7 @@ export default function EventsPage() {
             </h1>
             <p className="mt-4 text-lg max-w-2xl mx-auto">
               Join us for neighborhood walks, advocacy meetings, potlucks, and bike rides. 
-              Building a better South Loop happens when we show up together. See our upcoming events on <a href="https://www.eventbrite.com/e/south-loop-urbanists-monthly-meetup-tickets-1989274530671?aff=ebdssbdestsearch#organizer-card" style={{color:"blue", backgroundColor: "transparent", textDecoration: "none;"}}>Eventbrite</a>
+              Building a better South Loop happens when we show up together. See our upcoming events on <a href="https://www.eventbrite.com/o/121331719107" style={{color:"blue", backgroundColor: "transparent", textDecoration: "none;"}}>Eventbrite</a>
             </p>
             <div className="mt-6 flex flex-wrap justify-center items-center gap-3">
               <span className="inline-flex items-center gap-2 text-sm font-semibold px-4 py-2 rounded-full border-2 border-black bg-[#c9f0e1] shadow-[3px_3px_0_0_#1c2b2d]">
