@@ -38,3 +38,11 @@ https://motion.dev
 
 ## Lucide Icons 
 https://lucide.dev
+
+## SLU-specific notes:
+
+This site is currently deployed on a Cloudflare Worker. As such the build command is: `npm run build-cf`.
+
+The following command can be used to run the site locally via CloudFlare Wrangler: `npx wrangler dev`. This is helpful for testing changes locally before deploying them. More info on how to do this can be found [here](https://developers.cloudflare.com/workers/local-development/).
+
+This command is used to deploy local changes to Cloudflare: `npx wrangler deploy`. To do this you'l need access to the Cloudflare account.
