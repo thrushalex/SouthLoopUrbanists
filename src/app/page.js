@@ -13,6 +13,7 @@ import {
   HeartHandshake,
   Calendar,
   Trees,
+  Store,
   Bike,
   Home as HomeIcon,
   Baby,
@@ -109,11 +110,13 @@ export default function Home() {
               </div>
               <h2 className="text-3xl font-black">Why We Exist</h2>
               <p className="mt-3 text-[15.5px] leading-relaxed">
-                South Loop is one of Chicago&apos;s most beloved neighborhoods — walkable, lively, and full of possibility. But today it&apos;s becoming harder for people to stay, move, and enjoy our streets.
+                South Loop is a unique neighborhood in Chicago; right next to the Loop, very well connected to the CTA and Metra, while having a quiet residential feel.
                 <br/><br/>
-                We exist to keep South Loop people-first: a neighborhood where sidewalks feel welcoming, transit is easy and reliable, and new neighbors can afford to live near the places they love. A neighborhood designed for connection not congestion.
+                Many choose to live in South Loop because of its great location, access to public transit, and proximity to great public spaces like Grant Park and the lakefront. However, the neighborhood is also quite car-centric, with lots of wide streets mainly dedicated to moving cars quickly, and with limited space for people to gather, walk, and bike.
                 <br/><br/>
-                We believe that when neighborhoods make room for people instead of cars, they make room for community.
+                We believe that by reallocating space in the neighborhood to prioritize people over cars, we can really improve the quality of life in the South Loop, while also making it more accessible and sustainable.
+                <br/><br/>
+                Our mission is to advocate for people-first infrastructure and strong neighborhood life to create a more accessible, sustainable, and thriving South Loop community.
               </p>
             </div>
             <div className="grid gap-4">
@@ -137,31 +140,25 @@ export default function Home() {
       {/* Pillars */}
       <section id="pillars" className="relative">
         <div className="max-w-6xl mx-auto px-4 py-10 sm:py-14">
-          <h2 className="text-3xl font-black">Our four pillars</h2>
-          <div className="mt-6 grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+          <h2 className="text-3xl font-black">Our three pillars</h2>
+          <div className="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
             <Pillar
               icon={HomeIcon}
-              title="More Housing"
-              blurb="More neighbors make a stronger, more welcoming community. We support homes near transit that let people stay and belong here."
-              badge="Welcoming"
-            />
-            <Pillar
-              icon={Train}
-              title="Better Transit"
-              blurb="Frequent, reliable service and accessible stops make daily life easier and more connected — because time spent waiting is time you lose with the people you love."
-              badge="Connected"
-            />
-            <Pillar
-              icon={Trees}
-              title="Green, Calm Streets"
-              blurb="Streets should feel comfortable to walk and gather in, with slower traffic, more trees, and people-first spaces for all ages and abilities."
-              badge="Kid-Friendly"
+              title="Improve Neighborhood Life"
+              blurb="A great neighborhood can mean many things, like: safe streets, quality public spaces, and homes that are affordable to all. South Loop is already a great place to live, and we want to make it even better."
+              badge="Home sweet home"
             />
             <Pillar
               icon={Bike}
-              title="Biking That&apos;s Easy"
-              blurb="Getting around shouldn&apos;t require bravery. We support a bike network that feels intuitive, family-friendly, and safe for all ages."
-              badge="Rollable"
+              title="Support People-Oriented Infrastructure"
+              blurb="Streets should feel comfortable to walk and gather in, with slower traffic, more trees, and people-first spaces for all ages and abilities."
+              badge="Low stress"
+            />
+            <Pillar
+              icon={Store}
+              title="Partner with Vibrant Local Businesses"
+              blurb="Local businesses like coffee shops, restaurants, grocers, and more are key to a vibrant and livable neighborhood."
+              badge="Shop local"
             />
           </div>
         </div>
