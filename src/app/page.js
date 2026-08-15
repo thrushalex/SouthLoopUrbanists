@@ -177,30 +177,64 @@ export default function Home() {
                 <h2 className="text-3xl font-black">Join Your Neighbors</h2>
                 <p className="mt-2 text-[15.5px]">Pop your email in and we&apos;ll send occasional updates. Or just show up to an event and say hi!</p>
             <div id="mc_embed_shell">
-      <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css"></link>
-				<div id="mc_embed_signup">
-					<form action="https://slurbanists.us10.list-manage.com/subscribe/post?u=0429f70ac5bb33e08cfdcc954&amp;id=bc9ede185f&amp;f_id=00ccc6e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-						<div id="mc_embed_signup_scroll">
-							<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-              <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></input></div>
+              <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css" />
+                <div id="mc_embed_signup">
+                  <form
+                    action="https://slurbanists.us10.list-manage.com/subscribe/post?u=0429f70ac5bb33e08cfdcc954&amp;id=bc9ede185f&amp;f_id=00ccc6e1f0"
+                    method="post"
+                    id="mc-embedded-subscribe-form"
+                    name="mc-embedded-subscribe-form"
+                    className="validate"
+                    target="_blank"
+                  >
+                    <div id="mc_embed_signup_scroll">
+                      <div className="indicates-required"><span className="asterisk">*</span> indicates required</div>
+                      <div className="mc-field-group">
+                        <label htmlFor="mce-EMAIL">Email Address <span className="asterisk">*</span></label>
+                        <input
+                          type="email"
+                          name="EMAIL"
+                          className="required email"
+                          id="mce-EMAIL"
+                          required
+                          defaultValue=""
+                        />
+                      </div>
 
-            <div id="mce-responses" class="clear foot">
-							<div class="response" id="mce-error-response" style={{display: "none;"}}></div>
-							<div class="response" id="mce-success-response" style={{display: "none;"}}></div>
-						</div>
-					<div aria-hidden="true" style={{position: "absolute", left: "-5000px;"}}>
-						/* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
-						<input type="text" name="b_0429f70ac5bb33e08cfdcc954_bc9ede185f" tabindex="-1" value=""></input>
-					</div>
-						<div class="optionalParent">
-							<div class="clear foot">
-								<input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe"></input>
-								<p style={{margin: "0px auto;"}}><a href="http://eepurl.com/-e3n2DGOUN" title="Mailchimp - email marketing made easy and fun"><span style={{display: "inline-block", backgroundColor: "transparent", borderRadius: "4px;"}}><img class="refferal_badge" src="https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-dark.svg" alt="Intuit Mailchimp" style={{width: "220px", height: "40px", display: "flex", padding: "2px 0px", justifyContent: "center", alignItems: "center;"}}></img></span></a></p>
-							</div>
-						</div>
-					</div>
-				</form>
-				</div>
+                      <div id="mce-responses" className="clear foot">
+                        <div className="response" id="mce-error-response" style={{ display: "none" }}></div>
+                        <div className="response" id="mce-success-response" style={{ display: "none" }}></div>
+                      </div>
+
+                      <div aria-hidden="true" style={{ position: "absolute", left: "-5000px" }}>
+                        <input
+                          type="text"
+                          name="b_0429f70ac5bb33e08cfdcc954_bc9ede185f"
+                          tabIndex={-1}
+                          defaultValue=""
+                        />
+                      </div>
+
+                      <div className="optionalParent">
+                        <div className="clear foot">
+                          <input type="submit" name="subscribe" id="mc-embedded-subscribe" className="button" value="Subscribe" />
+                          <p style={{ margin: "0px auto" }}>
+                            <a href="http://eepurl.com/-e3n2DGOUN" title="Mailchimp - email marketing made easy and fun">
+                              <span style={{ display: "inline-block", backgroundColor: "transparent", borderRadius: "4px" }}>
+                                <img
+                                  className="refferal_badge"
+                                  src="https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-dark.svg"
+                                  alt="Intuit Mailchimp"
+                                  style={{ width: "220px", height: "40px", display: "flex", padding: "2px 0px", justifyContent: "center", alignItems: "center" }}
+                                />
+                              </span>
+                            </a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
         </div>
               </div>
 
