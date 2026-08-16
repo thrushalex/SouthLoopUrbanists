@@ -51,13 +51,15 @@ export default function AboutPage() {
       <section className="relative">
         <div className="max-w-6xl mx-auto px-4 py-10 sm:py-14">
           <div className="relative p-6 rounded-[28px] bg-white/95 border-2 border-black shadow-[6px_6px_0_0_#1c2b2d]">
-            <h2 className="text-3xl font-black">Why We Exist</h2>
+            <h2 className="text-3xl font-black">Who we are</h2>
             <p className="mt-3 text-[15.5px] leading-relaxed">
-                South Loop is one of Chicago&apos;s most beloved neighborhoods — walkable, lively, and full of possibility. But today it&apos;s becoming harder for people to stay, move, and enjoy our streets.
+                We&apos;re a group of South Loop residents who love our neighborhood and want to help make it an even better place to live.
                 <br/><br/>
-                We exist to keep South Loop people-first: a neighborhood where sidewalks feel welcoming, transit is easy and reliable, and new neighbors can afford to live near the places they love. A neighborhood designed for connection not congestion.
+                What that means to us is making it easier and safer to walk, roll, bike, and take transit in and around the neighborhood. Currently most streets in our neighborhood dedicate a great deal of space to motor vehicles, and not much else. In recent years there has been some progress made in the form of protected bike lanes, which we hope to see more of in the neighborhood, in addition to things like raised crosswalks, and bus lanes.
                 <br/><br/>
-                We believe that when neighborhoods make room for people instead of cars, they make room for community.
+                Beyond improving the experience of moving around the neighborhood, we also want improve the experience of simply being in the neighborhood. Greener, more inviting, and more plentiful public spaces would be a great way to accomplish this. Pedestrianizing streets (even if only temporarily) is a quick and easy way to create public space, and get neighbors out and talking to each other. Local businesses benefit too!
+                <br/><br/>
+                In short, our mission is to advocate for people-first infrastructure and strong neighborhood life to create a more accessible, sustainable, and thriving South Loop community.
             </p>
           </div>
         </div>
