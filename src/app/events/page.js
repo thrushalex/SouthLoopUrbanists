@@ -136,7 +136,7 @@ export default function EventsPage() {
             >
               <h3 className="font-black text-lg">Monthly Meetings</h3>
               <p className="text-sm mt-2">
-                Last Wednesday of each month. Planning, updates, and friendly discussion about neighborhood improvements.
+                Last Sunday of every month. Planning, updates, and friendly discussion about neighborhood improvements.
               </p>
             </motion.div>
             <motion.div

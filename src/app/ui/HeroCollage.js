@@ -15,11 +15,11 @@ export default function HeroCollage () {
             </div>
             <div className="overflow-hidden w-full h-full rounded-[28px] ">
                 <Image
-                  src="/assets/img/dine_out_on_broadway.jpg"
+                  src="/assets/img/printers-row-art-fest.jpg"
                   width={400}
                   height={267}
                   style={{objectFit: "cover"}}
-                  alt="Dine Out On Broadway"
+                  alt="Printers Row Art Fest"
                   className="w-full h-full"
                 />
             </div>
@@ -41,7 +41,7 @@ export default function HeroCollage () {
                   width={400}
                   height={267}
                   style={{objectFit: "cover"}}
-                  alt="Dine Out On Broadway"
+                  alt="Printers Row Art Fest"
                   className="w-full h-full"
                 />
             </div>
