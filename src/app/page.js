@@ -72,7 +72,8 @@ export default function Home() {
               >
                 A South Loop where you can walk, bike, take transit, and live easily.
               </motion.h1>
-              <p className="mt-4 text-lg max-w-prose">
+
+              <p className="mt-4 text-lg max-w-prose" style={{marginBottom: "15px"}}>
                 We bring South Loop neighbors together to push for safer streets, great transit, more housing, and more greenspace in the places we love.
               </p>
               </div>
@@ -110,7 +111,7 @@ export default function Home() {
               </div>
               <h2 className="text-3xl font-black">Why We Exist</h2>
               <p className="mt-3 text-[15.5px] leading-relaxed">
-                South Loop is a unique neighborhood in Chicago; right next to the Loop, very well connected to the CTA and Metra, while having a quiet residential feel.
+                South Loop is a unique neighborhood in Chicago - right next to the Loop and very well connected to the regional transit, while having a quiet residential feel.
                 <br/><br/>
                 Many choose to live in South Loop because of its great location, access to public transit, and proximity to great public spaces like Grant Park and the lakefront. However, the neighborhood is also quite car-centric, with lots of wide streets mainly dedicated to moving cars quickly, and with limited space for people to gather, walk, and bike.
                 <br/><br/>
