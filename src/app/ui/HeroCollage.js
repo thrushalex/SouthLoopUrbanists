@@ -15,7 +15,7 @@ export default function HeroCollage () {
             </div>
             <div className="overflow-hidden w-full h-full rounded-[28px] ">
                 <Image
-                  src="/assets/img/printers-row-art-fest.jpg"
+                  src="/assets/img/printers-row-art-fest.webp"
                   width={400}
                   height={267}
                   style={{objectFit: "cover"}}
